@@ -1,9 +1,9 @@
 # Air_Quality_Analysis
 
 Project requirements : python , google collab, dataset
-# Libraries requirements : numpy, pandas,matplotlib,seaborn,scikit learn
+Libraries requirements : numpy, pandas,matplotlib,seaborn,scikit learn
 
-# Dataset details:
+Dataset details:
 Location wise daily ambient air-quality tamilnadu-year 2014
 
 It has the columns named as Stn Code, Sampling Date, State, City/Town/Village/Area, Location
@@ -42,7 +42,7 @@ different months.
 
 #Correlation matrix: A correlation matrix is used to analyze the relationships or associations between variables in a dataset. It provides a structured way to understand how different variables are related to each other. 
 
-# Pie-charts:
+Pie-charts:
 Distribution of Pollutants: Used pie-charts to show the proportion of different pollutants (e.g., SO2, NO2, RSPM/PM10) in the overall air quality data.
 
 Location-Based Analysis: Used Pie charts to show the distribution of air quality levels across different monitoring stations or locations.
