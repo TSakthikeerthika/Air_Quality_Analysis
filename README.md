@@ -44,6 +44,7 @@ A correlation matrix is used to analyze the relationships or associations betwee
 
 # Pie-charts:
 Distribution of Pollutants: Used pie-charts to show the proportion of different pollutants (e.g., SO2, NO2, RSPM/PM10) in the overall air quality data.
+![image](https://github.com/TSakthikeerthika/Air_Quality_Analysis/assets/146413153/096ae108-ebda-4218-8bb8-3274febf0998)
 
 Location-Based Analysis: Used Pie charts to show the distribution of air quality levels across different monitoring stations or locations.
 
