@@ -47,6 +47,8 @@ Distribution of Pollutants: Used pie-charts to show the proportion of different 
 ![image](https://github.com/TSakthikeerthika/Air_Quality_Analysis/assets/146413153/096ae108-ebda-4218-8bb8-3274febf0998)
 
 Location-Based Analysis: Used Pie charts to show the distribution of air quality levels across different monitoring stations or locations.
+![image](https://github.com/TSakthikeerthika/Air_Quality_Analysis/assets/146413153/bbaa3caa-9a17-446b-89d6-a7317df86472)
+
 
 Comparing Locations: Pie charts to compare the air quality categories for different cities or areas within a region.
 
