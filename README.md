@@ -24,32 +24,37 @@ It provides information such as count, mean, standard deviation, minimum, 25th p
 It's particularly useful for getting a quick overview of the statistical measures of your data.
 
 # step 2:Data Pre-Processing 
-We drop the column PM 2.5 having full of NaN values.
+I drop the column PM 2.5 having full of NaN values.
 Replace missing values in all rows by mean value of that row. 
 And checking for duplicates , but no duplicates were found so , dataset remains the same.
 
 # step 3: Visualization and Analysis
 
-#Time Series Plots: Time series plots are essential for visualizing how air quality parameters change over 
+# Time Series Plots:
+Time series plots are essential for visualizing how air quality parameters change over 
 time. 
 
-#Line charts: Can show trends, seasonal patterns, and long-term changes in pollutant 
+# Line charts:
+Can show trends, seasonal patterns, and long-term changes in pollutant 
 concentrations.
 
-#Bar Charts: Bar charts can be used to compare pollutant levels across different categories or time 
+# Bar Charts:
+Bar charts can be used to compare pollutant levels across different categories or time 
 intervals. For instance, you can use bar charts to compare air quality in different cities or during 
 different months.
 
-#Correlation matrix: A correlation matrix is used to analyze the relationships or associations between variables in a dataset. It provides a structured way to understand how different variables are related to each other. 
+# Correlation matrix:
+A correlation matrix is used to analyze the relationships or associations between variables in a dataset. It provides a structured way to understand how different variables are related to each other. 
 
-Pie-charts:
+# Pie-charts:
 Distribution of Pollutants: Used pie-charts to show the proportion of different pollutants (e.g., SO2, NO2, RSPM/PM10) in the overall air quality data.
 
 Location-Based Analysis: Used Pie charts to show the distribution of air quality levels across different monitoring stations or locations.
 
 Comparing Locations: Pie charts to compare the air quality categories for different cities or areas within a region.
 
-Matplotlib and Seaborn: For data visualization, Matplotlib and Seaborn has been employed. These 
+# Matplotlib and Seaborn:
+For data visualization, Matplotlib and Seaborn has been employed. These 
 libraries offer a wide range of plotting options, allowing us to create informative visualizations that 
 depict air quality trends, pollution hotspots, and model predictions.
 
@@ -57,7 +62,7 @@ depict air quality trends, pollution hotspots, and model predictions.
 # step 4: Predictive model 
 Scikit-Learn has been used for building the predictive model. It provides various 
 machine learning algorithms, model evaluation metrics, and tools for model training and testing.
- For this we add a new column named AirQualityCategory which contains a categorical values named as 
+ For this I added a new column named AirQualityCategory which contains a categorical values named as 
 low or Moderate or High based on the mean levels of 3 pollution’s distribution in that respective row .
  This code performs classification using a Random Forest classifier to predict air quality categories 
 based on the levels of two pollutant variables, SO2 and NO2.
