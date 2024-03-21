@@ -41,6 +41,8 @@ different months.
 
 # Correlation matrix:
 A correlation matrix is used to analyze the relationships or associations between variables in a dataset. It provides a structured way to understand how different variables are related to each other. 
+![image](https://github.com/TSakthikeerthika/Air_Quality_Analysis/assets/146413153/7146b0df-6236-4671-9292-229604553022)
+
 
 # Pie-charts:
 Distribution of Pollutants: Used pie-charts to show the proportion of different pollutants (e.g., SO2, NO2, RSPM/PM10) in the overall air quality data.
