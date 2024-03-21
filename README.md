@@ -5,23 +5,14 @@ Libraries requirements : numpy, pandas,matplotlib,seaborn,scikit learn
 
 Dataset details:
 Location wise daily ambient air-quality tamilnadu-year 2014
-
 It has the columns named as Stn Code, Sampling Date, State, City/Town/Village/Area, Location
 of Monitoring Station, Agency, Type of Location, SO2, NO2, RSPM/PM10, PM 2.5
 
 # Step 1:Load the dataset and  Understanding the Dataset 
 
 Imported dataset using pandas library , by using inbuild fucntion .head() ,.tail() , .info() , .describe() we understand the datset.
-
 for example, the .head() method is used to display the first five rows of a DataFrame.By default, it shows the first 5 rows, but you can specify the number of rows to display by passing an argument, like df.head(10) to display the first 10 rows.
 It is helpful for quickly inspecting the structure and content of a DataFrame.
-
-The .info() method provides a concise summary of a DataFrame, including the data types of each column, non-null counts, and memory usage.
-It's useful for understanding the structure of your DataFrame, especially when dealing with large datasets.
-
-The .describe() method generates descriptive statistics of the central tendency, dispersion, and shape of the distribution of a DataFrame's columns.
-It provides information such as count, mean, standard deviation, minimum, 25th percentile, median (50th percentile), 75th percentile, and maximum.
-It's particularly useful for getting a quick overview of the statistical measures of your data.
 
 # step 2:Data Pre-Processing 
 I drop the column PM 2.5 having full of NaN values.
@@ -38,12 +29,15 @@ time.
 Can show trends, seasonal patterns, and long-term changes in pollutant 
 concentrations.
 
+# count plots:
+The countplot is used to represent the occurrence(counts) of the observation present in the categorical variable. It uses the concept of a bar chart for the visual depiction.
+![image](https://github.com/TSakthikeerthika/Air_Quality_Analysis/assets/146413153/03334775-f1b5-4318-be61-1ee3981f02cc)
+
 # Bar Charts:
 Bar charts can be used to compare pollutant levels across different categories or time 
 intervals. For instance, you can use bar charts to compare air quality in different cities or during 
 different months.
 ![image](https://github.com/TSakthikeerthika/Air_Quality_Analysis/assets/146413153/6187ce2d-1b87-4f2e-ad0d-aa27090d77b4)
-
 
 # Correlation matrix:
 A correlation matrix is used to analyze the relationships or associations between variables in a dataset. It provides a structured way to understand how different variables are related to each other. 
